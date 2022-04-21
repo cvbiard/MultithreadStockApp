@@ -1,1 +1,2 @@
 C:\Users\Clark\Documents\MultithreadStockApp\x64\Debug\MultithreadStockApp.exe
+D:\MultithreadStockApp\x64\Debug\MultithreadStockApp.exe
