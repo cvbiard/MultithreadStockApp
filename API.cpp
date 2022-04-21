@@ -95,8 +95,8 @@ void StockAPI::simulateUpdate()
 {
 	Stock* tempStock = pHead;
 	
-	//Never-ending loop for the thread to work off
-	while (true)
+	//For loop, just to iterate the simulation a limited amount of times
+	for(int i = 0; i < 10; i++)
 	{
 
 		while (tempStock != nullptr)

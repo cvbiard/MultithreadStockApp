@@ -34,5 +34,8 @@ int main(void)
 	//Create the new thread and pass in the API class
 	std::thread backgroundWorker(runStocks, &API);
 
-	system("pause>nul");
+	//Wait for the new thread to finish it's work before exiting main
+	backgroundWorker.join();
+
+	return 0;
 }
